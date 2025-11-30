@@ -1,0 +1,16 @@
+Structure du dossier
+Le numéro de série du volume est 3EA0-84B4
+C:.
+|   .env
+|   agents.py
+|   app.py
+|   docker-compose.yml
+|   Dockerfile
+|   requirements.txt
+|   tree.txt
+|   utils.py
+|   
+\---__pycache__
+        agents.cpython-311.pyc
+        utils.cpython-311.pyc
+        
