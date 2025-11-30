@@ -133,10 +133,10 @@ with st.sidebar:
         st.session_state.current_page = "Home"
     
     pages = {
-        "Home": "🏠",
-        "Study": "📚",
-        "Community": "👥",
-        "History": "📊"
+        "Home": "",
+        "Study": "",
+        "Community": "",
+        "History": ""
     }
     
     for page_name, icon in pages.items():
@@ -182,3 +182,4 @@ elif page == "Community":
 elif page == "History":
     from pages import history
     history.show()
+
